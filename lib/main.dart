@@ -1,4 +1,4 @@
-import 'package:emerging_tech/screens/Home_screen.dart';
+
 import 'package:emerging_tech/screens/tabs.dart';
 import 'package:flutter/material.dart';
 

@@ -26,9 +26,22 @@ class _TabsState extends State<Tabs> {
     const TechStack(),
   ];
 
+  final List<String>appbartitle = [
+    'Walmart Sparkathon',
+    'Our Team',
+    'Problem Statement',
+    'Our solution',
+    'Tech Stack',
+  ];
+
      return Scaffold(
       appBar: AppBar(
-        title: const Text('Navigation Bar Example'),
+        title:  Text(appbartitle[currentIndex],style: Theme.of(context).textTheme.bodyLarge!.copyWith(
+          color: Colors.white,
+          fontSize: 22,
+          fontWeight: FontWeight.bold
+        ),),
+        
       ),
       body: screens[currentIndex],
       bottomNavigationBar: BottomNavigationBar(
