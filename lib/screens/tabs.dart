@@ -30,7 +30,7 @@ class _TabsState extends State<Tabs> {
     'Walmart Sparkathon',
     'Our Team',
     'Problem Statement',
-    'Our solution',
+    'Solution',
     'Tech Stack',
   ];
 

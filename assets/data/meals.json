@@ -1,0 +1,322 @@
+{
+  "meals": [
+    {
+      "id": 1,
+      "name": "Vegetable Stir-Fry",
+      "category": "Vegetarian",
+      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHGPRhSREA-H8Z5cEddsA94RDQUeAHl5UQ9g&s",
+      "ingredients": {
+        "1_person": [
+          { "ingredient": "Carrots", "quantity": "1", "unit": "medium" },
+          { "ingredient": "Bell Peppers", "quantity": "1/2", "unit": "medium" },
+          { "ingredient": "Broccoli", "quantity": "1/2", "unit": "cup" },
+          { "ingredient": "Soy Sauce", "quantity": "1", "unit": "tbsp" },
+          { "ingredient": "Garlic", "quantity": "1", "unit": "clove" },
+          { "ingredient": "Ginger", "quantity": "1/2", "unit": "inch" },
+          { "ingredient": "Olive Oil", "quantity": "1", "unit": "tbsp" }
+        ],
+        "2_persons": [
+          { "ingredient": "Carrots", "quantity": "2", "unit": "medium" },
+          { "ingredient": "Bell Peppers", "quantity": "1", "unit": "medium" },
+          { "ingredient": "Broccoli", "quantity": "1", "unit": "cup" },
+          { "ingredient": "Soy Sauce", "quantity": "2", "unit": "tbsp" },
+          { "ingredient": "Garlic", "quantity": "2", "unit": "cloves" },
+          { "ingredient": "Ginger", "quantity": "1", "unit": "inch" },
+          { "ingredient": "Olive Oil", "quantity": "2", "unit": "tbsp" }
+        ],
+        "3_persons": [
+          { "ingredient": "Carrots", "quantity": "3", "unit": "medium" },
+          { "ingredient": "Bell Peppers", "quantity": "1.5", "unit": "medium" },
+          { "ingredient": "Broccoli", "quantity": "1.5", "unit": "cups" },
+          { "ingredient": "Soy Sauce", "quantity": "3", "unit": "tbsp" },
+          { "ingredient": "Garlic", "quantity": "3", "unit": "cloves" },
+          { "ingredient": "Ginger", "quantity": "1.5", "unit": "inch" },
+          { "ingredient": "Olive Oil", "quantity": "3", "unit": "tbsp" }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "name": "Chicken Curry",
+      "category": "Non-Vegetarian",
+      "image_url": "https://www.whiskaffair.com/wp-content/uploads/2021/10/Andhra-Chicken-Curry-2-3.jpg",
+      "ingredients": {
+        "1_person": [
+          { "ingredient": "Chicken", "quantity": "100", "unit": "grams" },
+          { "ingredient": "Onions", "quantity": "1/2", "unit": "medium" },
+          { "ingredient": "Tomatoes", "quantity": "1/2", "unit": "medium" },
+          { "ingredient": "Garlic", "quantity": "1", "unit": "clove" },
+          { "ingredient": "Ginger", "quantity": "1/2", "unit": "inch" },
+          { "ingredient": "Turmeric", "quantity": "1/4", "unit": "tsp" },
+          {
+            "ingredient": "Coriander Powder",
+            "quantity": "1/2",
+            "unit": "tsp"
+          },
+          { "ingredient": "Cumin Powder", "quantity": "1/4", "unit": "tsp" },
+          { "ingredient": "Chili Powder", "quantity": "1/4", "unit": "tsp" },
+          { "ingredient": "Oil", "quantity": "1", "unit": "tbsp" }
+        ],
+        "2_persons": [
+          { "ingredient": "Chicken", "quantity": "200", "unit": "grams" },
+          { "ingredient": "Onions", "quantity": "1", "unit": "medium" },
+          { "ingredient": "Tomatoes", "quantity": "1", "unit": "medium" },
+          { "ingredient": "Garlic", "quantity": "2", "unit": "cloves" },
+          { "ingredient": "Ginger", "quantity": "1", "unit": "inch" },
+          { "ingredient": "Turmeric", "quantity": "1/2", "unit": "tsp" },
+          { "ingredient": "Coriander Powder", "quantity": "1", "unit": "tsp" },
+          { "ingredient": "Cumin Powder", "quantity": "1/2", "unit": "tsp" },
+          { "ingredient": "Chili Powder", "quantity": "1/2", "unit": "tsp" },
+          { "ingredient": "Oil", "quantity": "2", "unit": "tbsp" }
+        ],
+        "3_persons": [
+          { "ingredient": "Chicken", "quantity": "300", "unit": "grams" },
+          { "ingredient": "Onions", "quantity": "1.5", "unit": "medium" },
+          { "ingredient": "Tomatoes", "quantity": "1.5", "unit": "medium" },
+          { "ingredient": "Garlic", "quantity": "3", "unit": "cloves" },
+          { "ingredient": "Ginger", "quantity": "1.5", "unit": "inch" },
+          { "ingredient": "Turmeric", "quantity": "3/4", "unit": "tsp" },
+          {
+            "ingredient": "Coriander Powder",
+            "quantity": "1.5",
+            "unit": "tsp"
+          },
+          { "ingredient": "Cumin Powder", "quantity": "3/4", "unit": "tsp" },
+          { "ingredient": "Chili Powder", "quantity": "3/4", "unit": "tsp" },
+          { "ingredient": "Oil", "quantity": "3", "unit": "tbsp" }
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "name": "Pasta Alfredo",
+      "category": "Vegetarian",
+      "image_url": "https://www.licious.in/blog/wp-content/uploads/2020/12/Penne-Alfredo-750x750.jpg",
+      "ingredients": {
+        "1_person": [
+          { "ingredient": "Pasta", "quantity": "100", "unit": "grams" },
+          { "ingredient": "Butter", "quantity": "1", "unit": "tbsp" },
+          { "ingredient": "Garlic", "quantity": "1", "unit": "clove" },
+          { "ingredient": "Heavy Cream", "quantity": "1/4", "unit": "cup" },
+          { "ingredient": "Parmesan Cheese", "quantity": "2", "unit": "tbsp" },
+          { "ingredient": "Salt", "quantity": "to taste", "unit": "" },
+          { "ingredient": "Black Pepper", "quantity": "to taste", "unit": "" }
+        ],
+        "2_persons": [
+          { "ingredient": "Pasta", "quantity": "200", "unit": "grams" },
+          { "ingredient": "Butter", "quantity": "2", "unit": "tbsp" },
+          { "ingredient": "Garlic", "quantity": "2", "unit": "cloves" },
+          { "ingredient": "Heavy Cream", "quantity": "1/2", "unit": "cup" },
+          { "ingredient": "Parmesan Cheese", "quantity": "4", "unit": "tbsp" },
+          { "ingredient": "Salt", "quantity": "to taste", "unit": "" },
+          { "ingredient": "Black Pepper", "quantity": "to taste", "unit": "" }
+        ],
+        "3_persons": [
+          { "ingredient": "Pasta", "quantity": "300", "unit": "grams" },
+          { "ingredient": "Butter", "quantity": "3", "unit": "tbsp" },
+          { "ingredient": "Garlic", "quantity": "3", "unit": "cloves" },
+          { "ingredient": "Heavy Cream", "quantity": "3/4", "unit": "cup" },
+          { "ingredient": "Parmesan Cheese", "quantity": "6", "unit": "tbsp" },
+          { "ingredient": "Salt", "quantity": "to taste", "unit": "" },
+          { "ingredient": "Black Pepper", "quantity": "to taste", "unit": "" }
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "name": "Grilled Salmon",
+      "category": "Non-Vegetarian",
+      "image_url": "https://www.thecookierookie.com/wp-content/uploads/2023/05/featured-grilled-salmon-recipe.jpg",
+      "ingredients": {
+        "1_person": [
+          { "ingredient": "Salmon Fillet", "quantity": "150", "unit": "grams" },
+          { "ingredient": "Lemon Juice", "quantity": "1", "unit": "tbsp" },
+          { "ingredient": "Olive Oil", "quantity": "1", "unit": "tbsp" },
+          { "ingredient": "Garlic", "quantity": "1", "unit": "clove" },
+          { "ingredient": "Salt", "quantity": "to taste", "unit": "" },
+          { "ingredient": "Black Pepper", "quantity": "to taste", "unit": "" }
+        ],
+        "2_persons": [
+          { "ingredient": "Salmon Fillet", "quantity": "300", "unit": "grams" },
+          { "ingredient": "Lemon Juice", "quantity": "2", "unit": "tbsp" },
+          { "ingredient": "Olive Oil", "quantity": "2", "unit": "tbsp" },
+          { "ingredient": "Garlic", "quantity": "2", "unit": "cloves" },
+          { "ingredient": "Salt", "quantity": "to taste", "unit": "" },
+          { "ingredient": "Black Pepper", "quantity": "to taste", "unit": "" }
+        ],
+        "3_persons": [
+          { "ingredient": "Salmon Fillet", "quantity": "450", "unit": "grams" },
+          { "ingredient": "Lemon Juice", "quantity": "3", "unit": "tbsp" },
+          { "ingredient": "Olive Oil", "quantity": "3", "unit": "tbsp" },
+          { "ingredient": "Garlic", "quantity": "3", "unit": "cloves" },
+          { "ingredient": "Salt", "quantity": "to taste", "unit": "" },
+          { "ingredient": "Black Pepper", "quantity": "to taste", "unit": "" }
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "name": "Paneer Tikka",
+      "category": "Vegetarian",
+      "image_url": "https://www.sanjanafeasts.co.uk/wp-content/uploads/2023/07/Paneer-Tikka-Kebabs-on-a-platter-with-fresh-naan-bread-720x720.jpg",
+      "ingredients": {
+        "1_person": [
+          { "ingredient": "Paneer", "quantity": "100", "unit": "grams" },
+          { "ingredient": "Yogurt", "quantity": "2", "unit": "tbsp" },
+          {
+            "ingredient": "Ginger-Garlic Paste",
+            "quantity": "1/2",
+            "unit": "tsp"
+          },
+          {
+            "ingredient": "Red Chili Powder",
+            "quantity": "1/4",
+            "unit": "tsp"
+          },
+          { "ingredient": "Garam Masala", "quantity": "1/4", "unit": "tsp" },
+          { "ingredient": "Lemon Juice", "quantity": "1", "unit": "tsp" },
+          { "ingredient": "Salt", "quantity": "to taste", "unit": "" }
+        ],
+        "2_persons": [
+          { "ingredient": "Paneer", "quantity": "200", "unit": "grams" },
+          { "ingredient": "Yogurt", "quantity": "4", "unit": "tbsp" },
+          {
+            "ingredient": "Ginger-Garlic Paste",
+            "quantity": "1",
+            "unit": "tsp"
+          },
+          {
+            "ingredient": "Red Chili Powder",
+            "quantity": "1/2",
+            "unit": "tsp"
+          },
+          { "ingredient": "Garam Masala", "quantity": "1/2", "unit": "tsp" },
+          { "ingredient": "Lemon Juice", "quantity": "2", "unit": "tsp" },
+          { "ingredient": "Salt", "quantity": "to taste", "unit": "" }
+        ],
+        "3_persons": [
+          { "ingredient": "Paneer", "quantity": "300", "unit": "grams" },
+          { "ingredient": "Yogurt", "quantity": "6", "unit": "tbsp" },
+          {
+            "ingredient": "Ginger-Garlic Paste",
+            "quantity": "1.5",
+            "unit": "tsp"
+          },
+          {
+            "ingredient": "Red Chili Powder",
+            "quantity": "3/4",
+            "unit": "tsp"
+          },
+          { "ingredient": "Garam Masala", "quantity": "3/4", "unit": "tsp" },
+          { "ingredient": "Lemon Juice", "quantity": "3", "unit": "tsp" },
+          { "ingredient": "Salt", "quantity": "to taste", "unit": "" }
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "name": "Beef Steak",
+      "category": "Non-Vegetarian",
+      "image_url": "https://takrecipe.com/wp-content/uploads/2022/10/beef-steak-recipe.jpg",
+      "ingredients": {
+        "1_person": [
+          { "ingredient": "Beef Steak", "quantity": "200", "unit": "grams" },
+          { "ingredient": "Salt", "quantity": "to taste", "unit": "" },
+          { "ingredient": "Black Pepper", "quantity": "to taste", "unit": "" },
+          { "ingredient": "Olive Oil", "quantity": "1", "unit": "tbsp" },
+          { "ingredient": "Butter", "quantity": "1", "unit": "tbsp" },
+          { "ingredient": "Garlic", "quantity": "1", "unit": "clove" }
+        ],
+        "2_persons": [
+          { "ingredient": "Beef Steak", "quantity": "400", "unit": "grams" },
+          { "ingredient": "Salt", "quantity": "to taste", "unit": "" },
+          { "ingredient": "Black Pepper", "quantity": "to taste", "unit": "" },
+          { "ingredient": "Olive Oil", "quantity": "2", "unit": "tbsp" },
+          { "ingredient": "Butter", "quantity": "2", "unit": "tbsp" },
+          { "ingredient": "Garlic", "quantity": "2", "unit": "cloves" }
+        ],
+        "3_persons": [
+          { "ingredient": "Beef Steak", "quantity": "600", "unit": "grams" },
+          { "ingredient": "Salt", "quantity": "to taste", "unit": "" },
+          { "ingredient": "Black Pepper", "quantity": "to taste", "unit": "" },
+          { "ingredient": "Olive Oil", "quantity": "3", "unit": "tbsp" },
+          { "ingredient": "Butter", "quantity": "3", "unit": "tbsp" },
+          { "ingredient": "Garlic", "quantity": "3", "unit": "cloves" }
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "name": "Falafel Wrap",
+      "category": "Vegetarian",
+      "image_url": "https://static.toiimg.com/thumb/62708678.cms?width=1200&height=900",
+      "ingredients": {
+        "1_person": [
+          { "ingredient": "Falafel", "quantity": "3", "unit": "pieces" },
+          { "ingredient": "Pita Bread", "quantity": "1", "unit": "piece" },
+          { "ingredient": "Hummus", "quantity": "2", "unit": "tbsp" },
+          { "ingredient": "Tomatoes", "quantity": "1/4", "unit": "medium" },
+          { "ingredient": "Cucumbers", "quantity": "1/4", "unit": "medium" },
+          { "ingredient": "Lettuce", "quantity": "1", "unit": "leaf" },
+          { "ingredient": "Tahini Sauce", "quantity": "1", "unit": "tbsp" }
+        ],
+        "2_persons": [
+          { "ingredient": "Falafel", "quantity": "6", "unit": "pieces" },
+          { "ingredient": "Pita Bread", "quantity": "2", "unit": "pieces" },
+          { "ingredient": "Hummus", "quantity": "4", "unit": "tbsp" },
+          { "ingredient": "Tomatoes", "quantity": "1/2", "unit": "medium" },
+          { "ingredient": "Cucumbers", "quantity": "1/2", "unit": "medium" },
+          { "ingredient": "Lettuce", "quantity": "2", "unit": "leaves" },
+          { "ingredient": "Tahini Sauce", "quantity": "2", "unit": "tbsp" }
+        ],
+        "3_persons": [
+          { "ingredient": "Falafel", "quantity": "9", "unit": "pieces" },
+          { "ingredient": "Pita Bread", "quantity": "3", "unit": "pieces" },
+          { "ingredient": "Hummus", "quantity": "6", "unit": "tbsp" },
+          { "ingredient": "Tomatoes", "quantity": "3/4", "unit": "medium" },
+          { "ingredient": "Cucumbers", "quantity": "3/4", "unit": "medium" },
+          { "ingredient": "Lettuce", "quantity": "3", "unit": "leaves" },
+          { "ingredient": "Tahini Sauce", "quantity": "3", "unit": "tbsp" }
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "name": "Shrimp Scampi",
+      "category": "Non-Vegetarian",
+      "image_url": "https://assets.bonappetit.com/photos/58a4e12a9fda6d7fbc740e91/1:1/w_3333,h_3333,c_limit/shrimp-scampi.jpg",
+      "ingredients": {
+        "1_person": [
+          { "ingredient": "Shrimp", "quantity": "100", "unit": "grams" },
+          { "ingredient": "Butter", "quantity": "1", "unit": "tbsp" },
+          { "ingredient": "Garlic", "quantity": "1", "unit": "clove" },
+          { "ingredient": "Lemon Juice", "quantity": "1", "unit": "tsp" },
+          { "ingredient": "White Wine", "quantity": "1/4", "unit": "cup" },
+          { "ingredient": "Parsley", "quantity": "1", "unit": "tbsp" },
+          { "ingredient": "Salt", "quantity": "to taste", "unit": "" },
+          { "ingredient": "Black Pepper", "quantity": "to taste", "unit": "" }
+        ],
+        "2_persons": [
+          { "ingredient": "Shrimp", "quantity": "200", "unit": "grams" },
+          { "ingredient": "Butter", "quantity": "2", "unit": "tbsp" },
+          { "ingredient": "Garlic", "quantity": "2", "unit": "cloves" },
+          { "ingredient": "Lemon Juice", "quantity": "2", "unit": "tsp" },
+          { "ingredient": "White Wine", "quantity": "1/2", "unit": "cup" },
+          { "ingredient": "Parsley", "quantity": "2", "unit": "tbsp" },
+          { "ingredient": "Salt", "quantity": "to taste", "unit": "" },
+          { "ingredient": "Black Pepper", "quantity": "to taste", "unit": "" }
+        ],
+        "3_persons": [
+          { "ingredient": "Shrimp", "quantity": "300", "unit": "grams" },
+          { "ingredient": "Butter", "quantity": "3", "unit": "tbsp" },
+          { "ingredient": "Garlic", "quantity": "3", "unit": "cloves" },
+          { "ingredient": "Lemon Juice", "quantity": "3", "unit": "tsp" },
+          { "ingredient": "White Wine", "quantity": "3/4", "unit": "cup" },
+          { "ingredient": "Parsley", "quantity": "3", "unit": "tbsp" },
+          { "ingredient": "Salt", "quantity": "to taste", "unit": "" },
+          { "ingredient": "Black Pepper", "quantity": "to taste", "unit": "" }
+        ]
+      }
+    }
+  ]
+}

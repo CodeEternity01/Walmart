@@ -2,7 +2,7 @@
 import 'package:emerging_tech/screens/about_hackathon.dart';
 import 'package:emerging_tech/widgets/theme_logo.dart';
 import 'package:flutter/material.dart';
-import 'package:webview_flutter/webview_flutter.dart';
+
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});

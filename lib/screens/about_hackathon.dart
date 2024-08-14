@@ -26,6 +26,7 @@ class _AboutHackathonState extends State<AboutHackathon> {
             });
           },
         ),
+        
       )
       ..loadRequest(
         Uri.parse('https://walmart.converge.tech/content/converge/en_in/sparkathon.html'),
