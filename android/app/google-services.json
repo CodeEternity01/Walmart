@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "75695770591",
+    "project_id": "walmartsparkathon",
+    "storage_bucket": "walmartsparkathon.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:75695770591:android:bce7d6b8d73b2aee66526a",
+        "android_client_info": {
+          "package_name": "com.example.emerging_tech"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAETRBOhHWbk3QezigTayy68YgCN7BmSwk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

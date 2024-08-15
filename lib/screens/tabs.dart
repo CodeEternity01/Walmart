@@ -1,4 +1,5 @@
 import 'package:emerging_tech/screens/Home_screen.dart';
+import 'package:emerging_tech/screens/cart_screen.dart';
 import 'package:emerging_tech/screens/problem_statement_screen.dart';
 import 'package:emerging_tech/screens/solution_screen.dart';
 import 'package:emerging_tech/screens/team_intro_screen.dart';
@@ -23,12 +24,12 @@ class _TabsState extends State<Tabs> {
     const TeamIntroScreen(),
     const ProblemStatementScreen(),
     const SolutionScreen(),
-    const TechStack(),
+    const TechStackScreen(),
   ];
 
   final List<String>appbartitle = [
     'Walmart Sparkathon',
-    'Our Team',
+    'About Team',
     'Problem Statement',
     'Solution',
     'Tech Stack',
@@ -41,6 +42,20 @@ class _TabsState extends State<Tabs> {
           fontSize: 22,
           fontWeight: FontWeight.bold
         ),),
+
+        actions: [
+              if (currentIndex==3) InkWell(
+                onTap: () {
+                    Navigator.push(context,MaterialPageRoute(builder: (context) {
+                          return const CartScreen();
+                    },));
+                },
+                child: const Padding(
+                  padding: EdgeInsets.all(10.0),
+                  child: Icon(Icons.trolley,color: Colors.white, size:27,),
+                ),
+              )
+        ],
         
       ),
       body: screens[currentIndex],

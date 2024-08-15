@@ -1,9 +1,21 @@
 
+import 'package:emerging_tech/firebase_options.dart';
+import 'package:emerging_tech/screens/Home_screen.dart';
+import 'package:emerging_tech/screens/auth.dart';
 import 'package:emerging_tech/screens/tabs.dart';
+import 'package:firebase_auth/firebase_auth.dart';
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-void main() {
-  runApp(const MyApp());
+void main() async {
+   WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
+  runApp(
+    
+    const ProviderScope(child: MyApp(
+    
+  )));
 }
 
 class MyApp extends StatelessWidget {
@@ -12,6 +24,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primaryColor: const Color(0xFF0071CE), // App bar color
        scaffoldBackgroundColor: Colors.white, // Background color
@@ -32,7 +45,17 @@ class MyApp extends StatelessWidget {
           
         ),
       ),
-      home: const Tabs(),
+      home: StreamBuilder(
+        stream: FirebaseAuth.instance.authStateChanges(),
+        builder: (context, snapshot) {
+        if (snapshot.hasData) {
+          
+          return  const Tabs();
+        }
+
+        return const AuthScreen();
+      },
+      ),
     );
   }
 }

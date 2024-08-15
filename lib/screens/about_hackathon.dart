@@ -5,10 +5,10 @@ class AboutHackathon extends StatefulWidget {
   const AboutHackathon({super.key});
 
   @override
-  _AboutHackathonState createState() => _AboutHackathonState();
+  AboutHackathonState createState() => AboutHackathonState();
 }
 
-class _AboutHackathonState extends State<AboutHackathon> {
+class AboutHackathonState extends State<AboutHackathon> {
   bool isLoading = true;
   late final WebViewController _controller;
 
@@ -37,7 +37,10 @@ class _AboutHackathonState extends State<AboutHackathon> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('About Hackathon'),
+        title: const Text('About Hackathon',style: TextStyle(
+          fontWeight: FontWeight.bold,
+          fontSize: 17
+        ),),
         backgroundColor: const Color(0xFF0071CE),
       ),
       body: Stack(
